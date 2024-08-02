@@ -16,7 +16,7 @@ Requirements:
   * Implement user registration and login using Supabase.
   * Store user information securely in MongoDB.
 4. Event Management:
-  * Allow users to create, read, update, and delete events.
+  * Allow users to create, read, update, and delete events. 
   * Each event should have a name, date, location, and description.
   * Integrate with a weather API to fetch and display weather information for event locations.
 5. Session Management:
