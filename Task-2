@@ -1,0 +1,39 @@
+Event Management Application
+
+Task Description:
+
+Develop an event management application that allows users to create, update, and manage events, track sessions, and integrate with an external API to fetch weather information for event locations. This application should use Node.js, Supabase, MongoDB, and include deployment on Render and Netlify.
+
+Requirements:
+
+1. Setup:
+  * Initialize a Node.js project.
+  * Install necessary dependencies (Express.js, Supabase client, Mongoose, etc.).
+2. Database:
+  * Create a MongoDB database to store user information, events, and session records.
+  * Define schemas and models for users, events, and sessions.
+3. User Authentication:
+  * Implement user registration and login using Supabase.
+  * Store user information securely in MongoDB.
+4. Event Management:
+  * Allow users to create, read, update, and delete events.
+  * Each event should have a name, date, location, and description.
+  * Integrate with a weather API to fetch and display weather information for event locations.
+5. Session Management:
+  * Generate and manage user sessions upon login.
+  * Record session instances (login time, logout time, IP address) in MongoDB.
+6. API Endpoints:
+  * POST /register: Register a new user.
+  * POST /login: Log in an existing user and create a session.
+  * POST /events: Create a new event.
+  * GET /events: Retrieve all events for the logged-in user.
+  * PUT /events/:id: Update an event by ID.
+  * DELETE /events/:id: Delete an event by ID.
+  * GET /sessions: Retrieve all user sessions.
+  * GET /weather/:location: Fetch weather information for a given location.
+7. Deployment:
+  * Deploy the backend on Render.
+  * Create a front-end interface to manage events and deploy it on Netlify.
+8. Documentation:
+  * Provide API documentation with example requests and responses.
+  * Document deployment steps and provide links to the deployed applications
